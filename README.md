@@ -1,4 +1,4 @@
-# ml_chess_project
+# gym-chess
 This documentation is slightly out of date and will be updated soon.
 ## Pre-requisites:
 Below are a list of packages that are required to get the game to work, along with links for installation instructions.
