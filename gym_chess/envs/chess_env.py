@@ -89,6 +89,10 @@ class ChessEnv(gym.Env):
             self.alt_moves -= 1
         return self._get_array_state()
 
+    def set_fen(self, fen):
+        self.env.set_fen(fen)
+        return self._get_array_state()
+
     def _reset(self):
         """
         :return: current state as numpy array
